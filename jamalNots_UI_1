@@ -1,0 +1,105 @@
+
+- What is front-end?
+    - What user sees and interacts with is called front-end
+    - UI = user interface
+    - GUI = graphic user interface
+
+- What is backend?
+    - Back-end is everything other than the front-end
+    - Back-end constructs the business logic, the calculations for the front-end
+    - Without proper back-end connections, the front-end functionalities will not work properly
+
+- What is HTML?
+    - Hypertext Markup Language
+
+- What is HTML used for?
+    - HTML is used to create certain structure for web applications
+
+- What is a mark up language?
+    - Markup languages are created using "mark-up tags"
+
+- Is HTML the only markup language?
+    - No. There are other markup languages such as XML.
+
+- What is a MARK UP TAG?
+    - Mark up tags act like containers
+    - These tags will determine how the content will be displayed on the web page
+    - We can have the exactly same content in different tags, and they will be displayed/structured differently on the web page
+
+- How many types of markup tags do we have?
+    - 2 types.
+
+    #1- Paired tags        :
+        - Paired tags have opening tag and closing tag.
+
+        syntax: <openingTag> CONTENT </closingTag>
+
+        - ex: p, h, li, ul, ol, strong, em, u, html, head, body, title, tr, td
+
+    #2- Unpaired tags    :
+        - These are also called self-closing tags.
+        - They are just one part.
+
+        syntax: </selfClosing>
+
+        - ex: br, img, hr
+
+- What kind of structure EVERY HTML page has to follow?
+    #1- Doctype declaration
+    #2- <html> </html> tag :
+        - is the parent/ascendent of all other web elements
+
+    #3- <head> </head> tag :
+        - Everything that is NOT displayed on the page itself goes inside of the <head> tag, such as: title, links, fontstyle, style
+
+    #4- <body> </body> tag:
+        - Everything we want to display on the page goes inside of the <body> tag
+
+
+-> What is <title> tag, and why is it used for?
+    - Title of the page is what comes up in the search engines
+    - Title also defines different pages of the application
+    - If title changes it means we are on a different page
+    - Title is only displayed on the browser tab itself
+    - We don't see the title in the page itself
+
+-> <p> tag:
+    - Whatever content is passed inside of this tag, it will be displayed as paragraph
+    - p tag is a block element?
+
+- What is a block element?
+    - Block element means the element will take the whole line from left to right side of the screen
+    - Anything comes right after it will be pushed to under the element
+
+-> <h>
+    - h tag is used for creating headers
+    - h1 thru h6 will create different size of headers
+    - h1 biggest, h6 smallest
+
+
+-> What is an ATTRIBUTE?
+    - Attributes provide additional information about given tag.
+    - We can have as many attributes as we want to have.
+    - Attributes will always go inside of the opening tag (if it is a paired tag)
+    - If it is unpaired tag (self-closing tag), it will go inside of the tag itself.
+
+    syntax:
+
+    <openingTag attributeName1="attributeValue" attributeName2="attributeValue"> CONTENT </closingTag>
+
+    </selfClosingTag attributeName1="attributeValue">
+
+
+ ex: <p style="color:red;"> today is a snowy day </p>
+
+     #1- What is the tag?
+         - <p> </p>
+
+     #2- What is the text/content of this tag?
+         - today is a snowy day
+
+     #3- What is the name of the attribute used?
+         - style
+
+     #4- What is the value of the attribute used?
+         - color:red;
