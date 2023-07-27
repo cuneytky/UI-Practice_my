@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <title>Title</title>
+</head>
+<body>
+
+<form>
+  <p>
+    Username:
+    <input type="text" name="username">
+  </p>
+  <p>
+    Password:
+    <input type="password">
+  </p>
+  <p>
+    What did you think of this trip?
+  </p>
+  <textarea cols="30" rows="7" placeholder="enter comment"></textarea>
+
+  <hr>
+
+  <p>
+    Please select food
+<!--    nameler aynı olmalı- value farklı olmalı -
+          checked ile seçili gorunme saglandı
+          disabled ile secılemeyen menu yapıldı-->
+    <input type="radio" name="food" value="burger">Burger
+    <input type="radio" name="food" value="kabab" disabled>Kabab
+    <input type="radio" name="food" value="salad" checked>Salad
+  </p>
+
+  <hr>
+
+  <p>
+    pick a type
+    <input type="date">
+  </p>
+  <p>
+    upload your resume <br>
+    <input type="file">
+  </p>
+
+  <hr>
+
+  <p>
+    Please select your favorite course(s)
+  </p>
+<!--  label ile zorunlu secim yaptık-->
+  <label for="abc">
+    <input type="checkbox" name="course" value="java" id="abc">Java
+  </label>
+
+  <input type="checkbox" name="course" value="DS">DS
+  <input type="checkbox" name="course" value="UI">UI
+  <input type="checkbox" name="course" value="softSkill">Soft Skill
+
+  <hr>
+
+  <p>Please select the program: </p>
+  <select name="program" >
+    <option value="" disabled selected>Select a program</option>
+<!--    value="" disabled selected>Select a program ile goruntu olusturduk-->
+    <option value="jd">Java Developer</option>
+    <option value="sdet">Java SDET</option>
+    <option value="cs">Cyber Security</option>
+  </select>
+  <br>
+  <hr>
+
+  <input class="button-33" type="submit" value="Sign Up" id="signup">
+
+  
+
+
+
+
+</form>
+
+
+
+</body>
+</html>

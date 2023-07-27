@@ -33,6 +33,20 @@ Dosya  açma: HTML
     - src : This tells the browser where it can find the image file
 • <a>        : Users can click on anything between the opening <a> tag and the closing </  a> tag.
 • target="_blank":  faklı sayfada link açar --> <a> nın Attribute
+• <div>  : The <div> element allows you to group a set of elements together in one block-level box.
+           <div> is also a block element. It take the whole line.
+• <span></span> : is an inline grouping tag. Doing similar things as div
+
+•HTML FORMS
+  - Forms are basically a container for all of these different types of inputs.
+  - Forms are created using <form></form> tag.
+  - Checkboxes, buttons, dropdown menus, and color pickers go in form tag.
+  - Forms are sending data to server or database or wherever we set it up to sent.
+  - The form we create could be just creating a get request.
+  - Example: Google search, or logins
+  - Or it could be creating a post request;
+  - Example: Signing up to a website
+•
 •
 •
 •
