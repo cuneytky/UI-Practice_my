@@ -1,0 +1,34 @@
+body {
+    background-color: #94bb8a;
+}
+p{
+    background-color: aqua;
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+}
+
+.class1{
+    background-color: #F1A661;
+    font-size: 14px;
+    font-family: "Arial Black";
+    color: #eaeeea;
+}
+
+/*#signup{*/
+/*    background-color: #617ef1;*/
+/*}*/
+
+.btn1{
+    background-color: #C98474;
+    font-size: 25px;
+}
+
+/*.btnFont{*/
+/*    font-family: "Droid Sans";*/
+/*}*/
+
+.btn1:hover {
+    background-color: #7e1d08;
+    font-size: 25px;
+}
+

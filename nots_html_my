@@ -1,0 +1,87 @@
+Dosya  açma: HTML
+- file > new > project > EMPTY PROJECT
+- MODULE UZERİNDE SAĞ TIK > new > directory ile files
+- files > sğ tık > new> html
+  burada index yapmak genel kabul. .html ile tanınmasını sağladık.
+
+  HTML genel:
+- head tagı genel bilgiler iin bu bolum ekranda görünmez
+- body tagı herşeyi yazaıp gostereceğimiz yer
+
+- ctrl + /    : yorum satırı
+- lorem + tab :
+- ctrl + D    : satırı alta kopyalar
+- ctrl + space: link açılıp detay gelir(color ...)
+
+• Title: Title is what you see inside of the tab of the web browser
+• HTML headings: They are defined with the <h1> </h1> to <h6></h6>  tags
+• <p>    : paragraph, you surround the words that make up the paragraph with an opening  <p>  tag and closing </p> tag
+• <br /> : To add a line break inside the middle of a paragraph, use the line break tag
+• <hr /> : To create a break between themes, add a horizontal rule between sections  using the <hr /> tag
+• < strong >: By enclosing words in the  tags < strong ></ strong > we can make characters appear bold
+• <em>      : By enclosing words in the tags <em> and </em> we can make characters appear italic.
+• <u>       : By enclosing words in the tags <u> and </u> we can underline the characters
+• HTML ATTRIBUTES
+  - Attributes provide additional information for that specific web element only.
+   - They appear in the opening tag of the element and are made up of two parts: a name and a value, separated by an equal sign.
+• <ol>       :The ordered list is created with the <ol> element/tag.
+• <li>       :Each item in the list is placed between an opening <li> tag and a closing </li> tag
+• <ul>       :The unordered list is created with the <ul> element
+• <!-- Comment -->
+• <img>       : To add an image into the page you need to use an <img> element. This is a self closing element. It needs to carry the following
+                attribute:
+    - src : This tells the browser where it can find the image file
+• <a>        : Users can click on anything between the opening <a> tag and the closing </  a> tag.
+• target="_blank":  faklı sayfada link açar --> <a> nın Attribute
+• <div>  : The <div> element allows you to group a set of elements together in one block-level box.
+           <div> is also a block element. It take the whole line.
+• <span></span> : is an inline grouping tag. Doing similar things as div
+==============================================================
+•HTML FORMS
+  - Forms are basically a container for all of these different types of inputs.
+  - Forms are created using <form></form> tag.
+  - Checkboxes, buttons, dropdown menus, and color pickers go in form tag.
+  - Forms are sending data to server or database or wherever we set it up to sent.
+  - The form we create could be just creating a get request.
+  - Example: Google search, or logins
+  - Or it could be creating a post request;
+  - Example: Signing up to a website
+--------------------------------------------
+• <input>:   The <input> element is used to create several different form controls. The value of the
+             type attribute determines what kind of input they will be creating
+• type=“text”:  When the type attribute has a value of text, it creates a single line text input.
+  name       :  When users enter information into a form, the server needs to know which form control each piece of data was entered into
+• type=“password”:  When the type attribute has a value of password it creates a text box that acts
+                   just like a single-line text input, except the characters are blocked out.
+   name  : The name attribute indicates the name of the password input, which is sent to the server with the password the user enters
+•The <textarea> : element is used to create a multi-line text input. Unlike other input elements this is not an empty element.
+                It should therefore have an opening an closing tag.
+-------------------------------------------------------------
+•type=“radio” : Radio buttons allow users to pick just one of a number of options
+•type=“checkbox”: Checkboxes allow users to select(and unselect) one or more options in answer to a question.
+ name: The name attribute is sent to the server with the value of the option(s) the user selects.
+ value: The value attribute indicates the value sent to the server if this checkbox is checked.
+ checked: The checked attribute indicates that this box should be checked when the page loads. If used, its value should be checked
+ --------------------------------------------------------------
+•What are the differences between radio button and checkboxes?
+   • Each checkbox operates individually.
+   • Options are independent from each other.
+   • So users are allowed to select multiple options at once.
+   • Radio buttons, however, operate as a group and are used to allow user to select one from a set of options.
+   • So users are allowed to select only one option.
+ -----------------------------------------------------------
+•DROP DOWN LIST BOX
+ <select>:  A drop down list box(also known as a select box) allows users to select one option from a drop
+            down list. The <select> element is used to create a drop down list box.
+ name: The name attribute indicates the name of the form control being sent to the server, along
+       with the value the user selected.
+ <option> : The <option> element is used to specify the options that the user can select from.
+ value    : The <option> element uses the value attribute to indicate the value that is sent to the server
+            along with the name of the control if this option is selected.
+ selected:  The selected attribute can be used to indicate the option that should be selected when the page loads
+ --------------------------------------------------------------
+•
+•
+
+
+

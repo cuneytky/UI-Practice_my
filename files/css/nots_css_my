@@ -1,0 +1,35 @@
+
+1- inline: use style attribute ile düzenleyebilriz.
+2- internal: head içinde;
+     - <style></style> içinde nerede düzenleme istiyorsan
+      oraya ait düzenleme verisi girerek düzenleme yapabilrisin
+      örn:<style>
+               p{
+                 font-size:....
+                 background color:...
+                }
+          </style>
+3 - extarnel: ayrı css dosyasını html dosyasında head  içine link ile ekleryerek
+
+==> inline öncelikli sonra internal sonra extarnel
+      -precedence implementation of CSS
+          Inline > Internal > External
+          inline overrides others
+==> colorhunt sitesinde renk uyum grupları mevcut. üerine tıklarsan koduda kopyalar
+
+==> extarnal içinde calss tanımlaması yapıp bunları inline olarak kullanabiliriz daha kullanabilir olur
+    .class1{
+        background-color: #F1A661;
+        font-size: 14px;
+        font-family: "Arial Black";
+        color: #eaeeea;
+    }
+
+==> browsere göre atanmış default özellikler var h1 -h2 ....için
+
+==> tek class ile bircok özellik atayarak bunu özelleştirebiliriz
+
+==>
+
+
+

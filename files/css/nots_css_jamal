@@ -1,0 +1,75 @@
+CSS
+syntax:
+body { background-color: blue;}
+
+selector { property: value;}
+    selector--> who we want to modify?
+    property--> what we want to change ?
+    value   --> how we want to change ?
+
+example: I want to change p background color to the red
+
+-3 Types of implementation:
+    #1-Inline:
+        we use style attribute to give css property and value to the tag directly.
+        <div style="background-color: aqua">
+    #2-Internal
+          we use <style></style> block to provide css properties. In this use we point the tags between this block
+              <style>
+        body {
+            background-color: #94bb8a;
+        }
+        p{
+            background-color: aqua;
+            font-size: 20px;
+            font-family: "Comic Sans MS";
+        }
+
+    </style>
+    in this usage, if you point one tag, it will affect all of the tags in the file. example: you give style to one p, all of them will be affected.
+
+    #3-External
+        we move all the css code to the external file under css folder
+        css/styles.css
+        and added following line under <head> tag
+        <link rel="stylesheet" href="css/styles.css">
+
+
+-precedence implementation of CSS
+    Inline > Internal > External
+        inline overrides others
+
+
+--CSS Selectors
+    Lets say we have many p tag inside the html. if we use only html tag as a selector, it will affect all of them. we can affect individual or group of tags using class or id attribute.
+
+    How to use class ?
+        1.Create one css class using . and name it.
+            example:
+                .class1{
+                    //some style here
+                }
+        2.Use classname as value of class atribute
+            <p class="class1"> Content</p>
+
+
+    How to use IDs?
+        1.Give an ID to the element that you want to modify
+            <input type="text" id="username">
+        2.Create ID selector in css with #sign
+            example:
+                #username{
+                        //some style here
+                        }
+
+-CSS Different States(pseudo classes)
+    Pseudo-class is a keyword added to a selector that specifies a special state of the selected element.For example
+        :hover can be used to change a button's color when the user's pointer hovers over it.
+
+        .btn{
+            background-color:red;
+        }
+
+        .btn:hover{
+            background-color:blue;
+        }
